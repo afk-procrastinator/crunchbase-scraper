@@ -1,0 +1,11 @@
+"""CSS selectors for scraping data"""
+
+SELECTORS = {
+    'about': "#mat-tab-nav-panel-0 > div > full-profile > page-centered-layout.overview-divider.ng-star-inserted > div > row-card > div > div:nth-child(1) > profile-section > section-card > mat-card > div.section-content-wrapper > description-card > div > span",
+    'location': "#mat-tab-nav-panel-0 > div > full-profile > page-centered-layout.overview-divider.ng-star-inserted > div > row-card > div > div:nth-child(1) > profile-section > section-card > mat-card > div.section-content-wrapper > fields-card > ul > li:nth-child(1) > label-with-icon > span > field-formatter > identifier-multi-formatter > span",
+    'employee_count': "#mat-tab-nav-panel-0 > div > full-profile > page-centered-layout.overview-divider.ng-star-inserted > div > row-card > div > div:nth-child(1) > profile-section > section-card > mat-card > div.section-content-wrapper > fields-card > ul > li:nth-child(2) > label-with-icon > span",
+    'company_type': "#mat-tab-nav-panel-0 > div > full-profile > page-centered-layout.overview-divider.ng-star-inserted > div > row-card > div > div:nth-child(1) > profile-section > section-card > mat-card > div.section-content-wrapper > fields-card > ul > li:nth-child(4) > label-with-icon > span > field-formatter > span",
+    'website': "#mat-tab-nav-panel-0 > div > full-profile > page-centered-layout.overview-divider.ng-star-inserted > div > row-card > div > div:nth-child(1) > profile-section > section-card > mat-card > div.section-content-wrapper > fields-card > ul > li:nth-child(5) > label-with-icon > span > field-formatter > link-formatter > a",
+    'year_founded': "#mat-tab-nav-panel-0 > div > full-profile > page-centered-layout.content-cards > div > div > div.main-content > row-card:nth-child(2) > profile-section > section-card > mat-card > div.section-content-wrapper > fields-card:nth-child(1) > ul > li:nth-child(3) > field-formatter > span",
+    'ranking': "#mat-tab-nav-panel-0 > div > full-profile > page-centered-layout.overview-divider.ng-star-inserted > div > row-card > div > div:nth-child(1) > profile-section > section-card > mat-card > div.section-content-wrapper > fields-card > ul > li:nth-child(6) > label-with-icon > span"
+} 

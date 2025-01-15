@@ -1,7 +1,7 @@
 [project]
 name = "crunchbase"
 version = "0.1.0"
-description = "Add your description here"
+description = "A Python-based tool for scraping company information from Crunchbase."
 readme = "README.md"
 requires-python = ">=3.13"
 dependencies = []

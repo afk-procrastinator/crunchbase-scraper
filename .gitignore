@@ -8,3 +8,9 @@ wheels/
 
 # Virtual environments
 .venv
+*.env
+
+# Company data and cookies
+company_list.txt
+cookies.json
+*.csv
