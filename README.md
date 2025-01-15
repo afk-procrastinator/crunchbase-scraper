@@ -1,6 +1,7 @@
-# Crunchbase Company Scraper
-
-A Python-based tool for scraping company information from Crunchbase.
+<div align="center">
+<h1>Crunchbase Company Scraper</h1>
+<h4>A Python-based tool for scraping company information from Crunchbase.</h4>
+</div>
 
 ## Features
 
@@ -38,8 +39,8 @@ A Python-based tool for scraping company information from Crunchbase.
 
 1. Clone the repository:
 ```bash
-git clone [repository-url]
-cd crunchbase
+git clone https://github.com/afk-procrastinator/crunchbase-scraper
+cd crunchbase-scraper
 ```
 
 2. Create and activate a virtual environment:
